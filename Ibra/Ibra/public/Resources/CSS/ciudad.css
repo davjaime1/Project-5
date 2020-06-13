@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Beyond The Mountains';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Beyond The Mountains'), url('beyond_the_mountains.woff') format('woff');
+}
+@font-face {
+    font-family: 'Beyond The Mountains';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Beyond The Mountains'), url('beyond_the_mountains.woff') format('woff');
+}
+
+h1, h2, h3
+{
+    font-family: 'Beyond The Mountains';
+}
+
+body
+{
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+}

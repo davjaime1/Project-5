@@ -1,0 +1,612 @@
+@font-face {
+    font-family: 'Beyond The Mountains';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Beyond The Mountains'), url('beyond_the_mountains.woff') format('woff');
+}
+@font-face {
+    font-family: 'Beyond The Mountains';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Beyond The Mountains'), url('beyond_the_mountains.woff') format('woff');
+}
+
+h1
+{
+    font-family: 'Beyond The Mountains';
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 10;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+h2
+{
+    font-family: 'Beyond The Mountains';
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 10;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+h2.MostSold
+{
+    padding-bottom: 50px;
+}
+
+.menu_button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #EF0031;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-bottom-color: #fff;
+}
+
+.menu_button_lower
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #EF0031;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-bottom-color: #fff;
+}
+
+.menu_button_lowerest
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #EF0031;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-bottom-color: #fff;
+}
+
+.menu_button_best
+{
+    text-align: center;
+    text-decoration: none;
+    background-color: Transparent;
+    border-style: solid;
+    border-color: red;
+    border-width: thin;
+    color: red;
+    padding: 8px 20px;
+    transition-duration: 0.2s;
+}
+
+.menu_button_best2:hover
+{
+    background-color: #e7e7e7;
+}
+
+.menu_button_tab
+{
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-bottom-color: red;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    background-color:black;
+    height: 100%;
+    width:100%;
+    margin-left:auto; 
+    margin-right:auto;
+    text-align:center;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    background-color: black;
+    color: white; 
+  }
+
+
+.tabcontent
+{
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Create an active/current tablink class */
+.tab button.active 
+{
+    background-color: red;
+}
+
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color:red;
+  }
+
+body
+{
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+
+    margin-top:0; 
+    margin-bottom:0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div
+{
+    display:inline-block;
+}
+
+div.History
+{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    background-position: 0 -150px;
+    padding-bottom: 100px;
+}
+
+div.HeaderDiv
+{
+    background-position: 0 -150px;
+    min-height: 100vh;
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-size: 1550px 1000px; 
+    background-image: repeating-linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../Images/hamburguesa2.jpg");
+    padding-bottom: 50px;
+}
+
+div.Footer
+{
+    background-position: 0px 0px;
+    min-height: 100vh;
+    width: 100%; 
+    background-size: 1550px 800px; 
+    background-repeat: no-repeat;
+    background-image: repeating-linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../Images/hamburguesa3.jpg");
+}
+
+div.buttondiv
+{
+    text-align: center;
+    display:inline-block;
+}
+
+div.MostSold
+{
+    background-position: 0px 0px;
+    min-height: 100vh;
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px; 
+    background-image: repeating-linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../Images/hamburguesa1.jpg");
+    color: white;
+    text-align: center;
+}
+
+div.Menu
+{
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 75px;
+}
+
+header
+{
+    background: rgba(0, 0, 0, 0.55);
+}
+
+table.header
+{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+table.History
+{
+    margin-right:100px
+}
+
+table.menubutton
+{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+table.MostSold
+{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+table.Footer
+{
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+}
+
+img.Ibra
+{
+    height:40%;
+    padding-right: 80px;
+    display:inline;
+}
+
+img.Ibra2
+{
+    height:90%;
+    display:inline;
+}
+
+img.Burgers
+{
+    height:25%;
+    display:inline;
+}
+
+img.LeftPic
+{
+    float: left;
+    max-width:15%;
+}
+
+img.RightPic
+{
+    float: right;
+    max-width:15%;
+}
+
+img.TinyBurger
+{
+    padding-top: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2%;
+}
+
+img.TinyBurger2
+{
+    padding-top: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+}
+
+img.SecondMenu
+{
+    max-width: 15%;
+    float: left;
+}
+
+div.TopTriangle
+{
+    width: 100%;
+    height: 50px;
+    background-image: url("../Images/triangle_bg_black.png");
+    background-size: 25px 10px;
+    background-repeat: repeat-x;
+    opacity: 0.55;
+}
+
+div.TopTriangle2
+{
+    width: 100%;
+    height: 50px;
+    background-image: url("../Images/triangle_bg_black.png");
+    background-size: 25px 10px;
+    background-repeat: repeat-x;
+}
+
+div.BottomTriangle
+{
+    transform: rotate(180deg);
+    width: 100%;
+    height: 50px;
+    background-image: url("../Images/triangle_bg_black.png");
+    background-size: 25px 10px;
+    background-repeat: repeat-x;
+    position: relative;
+    top: 206px;
+    left: -10px;
+    overflow: hidden;  
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+div.BottomTriangle2
+{
+    transform: rotate(180deg);
+    width: 100%;
+    height: 50px;
+    background-image: url("../Images/triangle_bg_black.png");
+    background-size: 25px 10px;
+    background-repeat: repeat-x;
+    position: relative;
+    top: 6px;
+    left: -10px;
+    overflow: hidden;    
+}
+
+nav.head
+{
+    text-align:center;
+    padding-right: 30px;
+    display: inline;
+    
+}
+
+li
+{
+    display:inline;
+}
+
+nav a
+{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+    text-decoration: none;
+    display:inline-block;
+    padding-right: 20px;
+    color:white;
+}
+
+a.current
+{
+   color: red;
+}
+
+td.MostSold
+{
+    padding-right: 70px;
+    padding-bottom: 40px;
+}
+
+td.MostSold2
+{
+    padding-bottom: 40px;
+}
+
+td.tab
+{
+    padding-bottom: 0;
+}
+
+td.menu2
+{
+    width:500px;
+}
+
+td.td_padding
+{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+p.top
+{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+p.Name
+{
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+p.Price
+{
+    margin: 0px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+p.Name2
+{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    display:inline;
+    top: 0;
+}
+
+div.Top_p_left
+{
+    height: 96px;
+    width: 40%;
+    vertical-align: top;
+    float: left;
+}
+
+div.Top_p_right
+{
+    height: 96px;
+    width: 15%;
+    vertical-align: top;
+    float: right;
+}
+
+p.RedPrice
+{
+
+    color: red;
+    display:inline;
+    vertical-align: text-top;
+}
+
+p.Green
+{
+    color:rgb(53, 201, 53);
+    text-decoration: underline;
+}
+
+p.White
+{
+    color:white;
+}
+
+i.white
+{
+    color:white;
+    padding-right: 15px;
+}
+
+form.contact
+{
+    display: inline-block;
+}
+
+input.field_sizes1
+{
+    height: 25px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.container {
+    padding: 16px;
+  }
+
+.modal
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
